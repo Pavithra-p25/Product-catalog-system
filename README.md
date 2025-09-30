@@ -43,7 +43,7 @@ Backend Setup:
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Pavithra-p25/Product-catalog-system.git
    cd backend
 Configure MySQL database:
 
