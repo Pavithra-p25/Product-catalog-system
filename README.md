@@ -61,33 +61,25 @@ spring.jpa.show-sql=true
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 Run the backend:
 
-bash
-Copy code
 mvn spring-boot:run
 Backend will run at http://localhost:8080.
 
 Frontend Setup
 Navigate to the frontend folder:
 
-bash
-Copy code
 cd frontend
 Install dependencies:
 
-bash
-Copy code
 npm install
 Start the frontend:
 
-bash
-Copy code
 npm start
 Frontend will run at http://localhost:3000.
 
 How to Use the Application
 Open http://localhost:3000 in a browser.
 
-Log in using predefined credentials.
+Log in with the username- admin , password- 1234.
 
 Once logged in:
 
@@ -110,7 +102,6 @@ Styling: CSS Flexbox, Gradient backgrounds, Responsive design
 
 Project Structure
 css
-Copy code
 product-catalog-system/
 │
 ├── backend/                  
