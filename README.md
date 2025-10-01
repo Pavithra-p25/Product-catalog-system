@@ -26,8 +26,6 @@ The Product Catalog System is a web application that allows users to manage prod
   - REST APIs connecting frontend and backend
   - Data stored in MySQL database
 
----
-
 Setup Instructions:
 
  Prerequisites:-
@@ -37,7 +35,6 @@ Setup Instructions:
 - Maven
 - MySQL
 
----
 
 Backend Setup: 
 
@@ -45,63 +42,55 @@ Backend Setup:
    ```bash
    git clone https://github.com/Pavithra-p25/Product-catalog-system.git
    cd backend
+   
 Configure MySQL database:
-
-Create a database named product_catalog
+    Create a database named product_catalog
 
 Update src/main/resources/application.properties:
 
-properties
-Copy code
 spring.datasource.url=jdbc:mysql://localhost:3306/product_catalog
 spring.datasource.username=root
 spring.datasource.password=admin123
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
-Run the backend:
 
+Run the backend:
+cd backend 
 mvn spring-boot:run
 Backend will run at http://localhost:8080.
 
 Frontend Setup
 Navigate to the frontend folder:
-
 cd frontend
+
 Install dependencies:
-
 npm install
-Start the frontend:
 
+Start the frontend:
 npm start
 Frontend will run at http://localhost:3000.
 
 How to Use the Application
 Open http://localhost:3000 in a browser.
 
-Log in with the username- admin , password- 1234.
+Log in with the username -admin , password- 1234.
 
 Once logged in:
-
-View the list of products.
-
-Add, edit, or delete products using the dashboard.
-
-Search or filter products using the input fields.
+     View the list of products.
+     Add, edit, or delete products using the dashboard.
+     Search or filter products using the input fields.
 
 Technologies Used
+
 Frontend: React.js, HTML, CSS, JavaScript
-
 Backend: Java Spring Boot, Maven, REST APIs
-
 Database: MySQL
-
 Tools: Visual Studio Code
+Styling: CSS 
 
-Styling: CSS Flexbox, Gradient backgrounds, Responsive design
+Project Structure:
 
-Project Structure
-css
 product-catalog-system/
 │
 ├── backend/                  
